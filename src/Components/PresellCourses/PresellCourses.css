@@ -1,14 +1,14 @@
-.popularcourse__container {
+.persellcourses__container {
     margin-bottom: 4rem;
 }
 
-.popularcourse__wrapper__text {
+.percellcourses__wrapper__text {
     width: var(--width-lg-s);
     margin: auto;
     margin-top: 4rem;
 }
 
-.popularcourse__wrapper__text > h3 {
+.percellcourses__wrapper__text > h3 {
     font-family: k;
     font-size: 16px;
     background-color: var(--primary-color);
@@ -34,13 +34,13 @@
 }
 
 @media screen and (max-width : 991px) {
-    .swiper , .popularcourse__wrapper__text {
+    .swiper , .percellcourses__wrapper__text {
         width: var(--width-md-s);
     }
 }
 
 @media screen and (max-width : 600px) {
-    .swiper , .popularcourse__wrapper__text {
+    .swiper , .percellcourses__wrapper__text {
         width: var(--width-sm-s);
     }
 }

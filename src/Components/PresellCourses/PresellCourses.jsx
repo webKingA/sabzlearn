@@ -1,5 +1,5 @@
 import React from "react";
-import "./PopularCourses.css";
+import "./PresellCourses.css";
 import CourseBox from "../CourseBox/CourseBox";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -7,13 +7,13 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
 
-export default function PopularCourses() {
+export default function PresellCourses() {
   return (
-    <div className="popularcourse__container">
-      <div className="popularcourse__wrapper__text">
-        <h3>محبوب ترین دوره ها</h3>
+    <div className="persellcourses__container">
+      <div className="percellcourses__wrapper__text">
+        <h3>دوره های در حال پیش فروش</h3>
       </div>
-      <div className="popularcourse__wrapper">
+      <div className="percellcourses__wrapper__slider">
         <Swiper
           slidesPerView={4}
           spaceBetween={30}
