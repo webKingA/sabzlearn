@@ -8,6 +8,7 @@ import About from '../../Components/About/About';
 import PopularCourses from '../../Components/PopularCourses/PopularCourses';
 import PresellCourses from '../../Components/PresellCourses/PresellCourses';
 import Articles from '../../Components/Articles/Articles';
+import Footer from '../../Components/Footer/Footer';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <PopularCourses />
       <PresellCourses />
       <Articles />
+      <Footer />
     </div>
   )
 }
