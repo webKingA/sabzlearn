@@ -4,7 +4,7 @@ import {FaChalkboardTeacher , FaUsers} from 'react-icons/fa';
 import {HiOutlineArrowLeft} from 'react-icons/hi';
 import { Link } from 'react-router-dom';
 
-export default function CourseBox({img , title , teacher , star , starfill , number , price}) {
+export default function CourseBox({img , title , teacher , star , starfill , number , price , course}) {
   return (
     <div className='coursebox__container'>
         <div className="coursebox__wrapper">
@@ -37,7 +37,7 @@ export default function CourseBox({img , title , teacher , star , starfill , num
                 </div>
             </div>
             <span>
-                <Link to='/courses/freelanser'>مشاهده اطلاعات</Link>
+                <Link to={`/courses/${course}`}>مشاهده اطلاعات</Link>
                 <HiOutlineArrowLeft />
             </span>
         </div>

@@ -29,6 +29,7 @@ export default function Courses() {
             star={"./images/svgs/star.svg"}
             number="500"
             price="210000"
+            course='freelancer'
           />
           <CourseBox
             img={"./images/courses/js_project.png"}
@@ -38,6 +39,7 @@ export default function Courses() {
             star={"./images/svgs/star.svg"}
             number="14235"
             price="free"
+            course='js'
           />
           <CourseBox
             img={"./images/courses/youtuber.png"}
@@ -47,6 +49,7 @@ export default function Courses() {
             star={"./images/svgs/star.svg"}
             number="10"
             price="3000000"
+            course='youtube'
           />
           <CourseBox
             img={"./images/courses/nodejs.png"}
@@ -56,6 +59,7 @@ export default function Courses() {
             star={"./images/svgs/star.svg"}
             number="43"
             price="2500000"
+            course='nodejs'
           />
           <CourseBox
             img={"./images/courses/python.png"}
@@ -65,6 +69,7 @@ export default function Courses() {
             star={"./images/svgs/star.svg"}
             number="135"
             price="free"
+            course='python'
           />
           <CourseBox
             img={"./images/courses/jango.png"}
@@ -74,6 +79,7 @@ export default function Courses() {
             star={"./images/svgs/star.svg"}
             number="231"
             price="180000"
+            course='jango'
           />
         </div>
       </div>

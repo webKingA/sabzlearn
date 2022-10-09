@@ -46,6 +46,7 @@ export default function PresellCourses() {
               star={"./images/svgs/star.svg"}
               number="500"
               price="210000"
+              course='freelancer'
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -57,6 +58,7 @@ export default function PresellCourses() {
               star={"./images/svgs/star.svg"}
               number="14235"
               price="free"
+              course='js'
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -68,6 +70,7 @@ export default function PresellCourses() {
               star={"./images/svgs/star.svg"}
               number="10"
               price="3000000"
+              course='youtube'
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -79,6 +82,7 @@ export default function PresellCourses() {
               star={"./images/svgs/star.svg"}
               number="43"
               price="2500000"
+              course='nodejs'
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -90,6 +94,7 @@ export default function PresellCourses() {
               star={"./images/svgs/star.svg"}
               number="135"
               price="free"
+              course='python'
             />
           </SwiperSlide>
         </Swiper>
