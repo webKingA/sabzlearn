@@ -38,19 +38,59 @@ export default function PopularCourses() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <CourseBox />
+            <CourseBox
+              img={"./images/courses/jango.png"}
+              title="دوره متخصص جنگو"
+              teacher={"رضا دولتی"}
+              starfill="./images/svgs/star_fill.svg"
+              star={"./images/svgs/star.svg"}
+              number="231"
+              price="180000"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <CourseBox />
+            <CourseBox
+              img={"./images/courses/python.png"}
+              title="متخصص پایتون"
+              teacher={"رضا دولتی"}
+              starfill="./images/svgs/star_fill.svg"
+              star={"./images/svgs/star.svg"}
+              number="135"
+              price="free"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <CourseBox />
+            <CourseBox
+              img={"./images/courses/nodejs.png"}
+              title="متخصص بک اند"
+              teacher={"محمد امین سعیدی راد"}
+              starfill="./images/svgs/star_fill.svg"
+              star={"./images/svgs/star.svg"}
+              number="43"
+              price="2500000"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <CourseBox />
+            <CourseBox
+              img={"./images/courses/youtuber.png"}
+              title="متخصص یوتوب"
+              teacher={"قدیر یلمه"}
+              starfill="./images/svgs/star_fill.svg"
+              star={"./images/svgs/star.svg"}
+              number="10"
+              price="3000000"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <CourseBox />
+            <CourseBox
+              img={"./images/courses/js_project.png"}
+              title="دوره جامعه پروژه محور جاوااسکریپت"
+              teacher={"محمد امین سعیدی راد"}
+              starfill="./images/svgs/star_fill.svg"
+              star={"./images/svgs/star.svg"}
+              number="14235"
+              price="free"
+            />
           </SwiperSlide>
         </Swiper>
       </div>

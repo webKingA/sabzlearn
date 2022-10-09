@@ -43,16 +43,16 @@
 }
 
 .coursebox__wrapper__score__one > svg {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .coursebox__wrapper__score__one > p {
     font-family: k;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .coursebox__wrapper__score__two > img {
-    width: 20px;
+    width: 16px;
 }
 
 .coursebox__wrapper__price {
