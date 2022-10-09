@@ -7,6 +7,7 @@ import Courses from '../../Components/Courses/Courses';
 import About from '../../Components/About/About';
 import PopularCourses from '../../Components/PopularCourses/PopularCourses';
 import PresellCourses from '../../Components/PresellCourses/PresellCourses';
+import Articles from '../../Components/Articles/Articles';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <About />
       <PopularCourses />
       <PresellCourses />
+      <Articles />
     </div>
   )
 }
