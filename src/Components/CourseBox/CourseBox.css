@@ -1,0 +1,135 @@
+.coursebox__container {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.coursebox__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    width: 100%;
+}
+
+.padd--10 {
+    padding: 0 6px;
+}
+
+.coursebox__wrapper > img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.coursebox__wrapper > h3 {
+    font-family: k;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.coursebox__wrapper__score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.coursebox__wrapper__score__one {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.coursebox__wrapper__score__one > svg {
+    font-size: 22px;
+}
+
+.coursebox__wrapper__score__one > p {
+    font-family: k;
+    font-size: 18px;
+}
+
+.coursebox__wrapper__score__two > img {
+    width: 20px;
+}
+
+.coursebox__wrapper__price {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.coursebox__wrapper__price__right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.coursebox__wrapper__price__right > svg {
+    font-size: 22px;
+}
+
+.coursebox__wrapper__price__right > p {
+    font-size: 18px;
+    font-family: k;
+}
+
+.coursebox__wrapper__price__left > p {
+    font-family: k;
+    font-size: 18px;
+}
+
+.coursebox__wrapper > span {
+    border-top: 1px solid #333;
+    width: 100%;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.coursebox__wrapper > span > a {
+    font-family: k;
+    font-size: 16px;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+.coursebox__wrapper > span > svg {
+    color: var(--primary-color);
+    font-size: 22px;
+    font-weight: 900;
+}
+
+@media screen and (max-width : 600px) {
+    .coursebox__container {
+        width: 90%;
+    }
+    
+    .coursebox__wrapper > h3 {
+        font-size: 15px;
+    }
+    .coursebox__wrapper__score__one > svg , .coursebox__wrapper__price__right > svg {
+        font-size: 18px;
+    }
+    .coursebox__wrapper__score__one > p , .coursebox__wrapper__price__right > p , .coursebox__wrapper__price__left > p {
+        font-size: 14px;
+    }
+    .coursebox__wrapper__score__two > img {
+        width: 16px;
+    }
+
+    .coursebox__wrapper > span > a {
+        font-size: 13px;
+    }
+    .coursebox__wrapper > span > svg {
+        font-size: 18px;
+    }
+}

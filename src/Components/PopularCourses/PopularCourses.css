@@ -1,0 +1,46 @@
+.popularcourse__container {
+    margin-bottom: 4rem;
+}
+
+.popularcourse__wrapper__text {
+    width: var(--width-lg);
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.popularcourse__wrapper__text > h3 {
+    font-family: k;
+    font-size: 16px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.swiper {
+    width: var(--width-lg);
+    height:420px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-pagination {
+    display: none;
+}
+
+@media screen and (max-width : 991px) {
+    .swiper , .popularcourse__wrapper__text {
+        width: var(--width-md);
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .swiper , .popularcourse__wrapper__text {
+        width: var(--width-sm);
+    }
+}
