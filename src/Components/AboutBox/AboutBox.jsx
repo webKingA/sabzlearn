@@ -1,17 +1,19 @@
 import React from 'react';
 import './AboutBox.css';
-import {SiCoursera} from 'react-icons/si';
+import { SiCoursera } from "react-icons/si";
+import { FaLeaf, FaCrown } from "react-icons/fa";
+import { IoDiamond } from "react-icons/io5";
 
-export default function AboutBox() {
+export default function AboutBox({svg , title , text}) {
     return (
         <div className='aboutbox__container'>
             <div className="aboutbox__wrapper">
                 <span className='aboutbox__wrapper__logo'>
-                    <SiCoursera />
+                    {svg}
                 </span>
                 <span className='aboutbox__wrapper__text'>
-                    <h5>دوره های اختصاصی</h5>
-                    <small>با پشتیبانی و کیفیت بالا ارائه میده!</small>
+                    <h5>{title}</h5>
+                    <small>{text}</small>
                 </span>
             </div>
         </div>
