@@ -37,7 +37,7 @@ export default function CourseBox({img , title , teacher , star , starfill , num
                 </div>
             </div>
             <span>
-                <Link to={`/courses/${course}`}>مشاهده اطلاعات</Link>
+                <Link to={`/course-info/${course}`}>مشاهده اطلاعات</Link>
                 <HiOutlineArrowLeft />
             </span>
         </div>

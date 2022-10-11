@@ -9,4 +9,18 @@
     --width-lg-s : 70%;
     --width-md-s : 80%;
     --width-sm-s : 90%;
+
+    --w-l : 80%;
+}
+
+@media screen and (max-width : 991px) {
+    :root {
+        --w-l : 90%
+    }
+}
+
+@media screen and (max-width : 700px) {
+    :root {
+        --w-l : 95%
+    }
 }
