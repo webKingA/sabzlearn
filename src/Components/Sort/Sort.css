@@ -1,0 +1,84 @@
+.sort__container {
+    width: var(--width-lg);
+    margin: auto;
+    background-color: var(--white-color);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 6px;
+}
+
+.sort__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    padding: 2rem;
+}
+
+.sort__wrapper__sorting {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sort__wrapper__sorting > svg {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.activce-svg {
+    background-color: rgb(32, 32, 172);
+    color: var(--white-color);
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.sort__wrapper__sorting > select {
+    font-family: k;
+    padding: 5px;
+}
+
+.sort__wrapper__searching {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.sort__wrapper__searching > input {
+    outline: none;
+    padding: 5px;
+    width: 19rem;
+    font-family: k;
+    border: 1px solid #333;
+    border-radius: 6px;
+}
+
+.sort__wrapper__searching > label {
+    position: absolute;
+    left: 5px;
+    margin-top: 5px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media screen and (max-width : 991px) {
+    .sort__container {
+        width: var(--width-md);
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .sort__wrapper {
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .sort__container {
+        width: var(--width-sm);
+    }
+}

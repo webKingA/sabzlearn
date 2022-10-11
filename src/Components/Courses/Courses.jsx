@@ -30,6 +30,7 @@ export default function Courses() {
             number="500"
             price="210000"
             course='freelancer'
+            category = 'frontend'
           />
           <CourseBox
             img={"./images/courses/js_project.png"}
@@ -40,6 +41,7 @@ export default function Courses() {
             number="14235"
             price="free"
             course='js'
+            category = 'frontend'
           />
           <CourseBox
             img={"./images/courses/youtuber.png"}
@@ -50,6 +52,7 @@ export default function Courses() {
             number="10"
             price="3000000"
             course='youtube'
+            category = 'youtube'
           />
           <CourseBox
             img={"./images/courses/nodejs.png"}
@@ -60,6 +63,7 @@ export default function Courses() {
             number="43"
             price="2500000"
             course='nodejs'
+            category = 'backend'
           />
           <CourseBox
             img={"./images/courses/python.png"}
@@ -70,6 +74,7 @@ export default function Courses() {
             number="135"
             price="free"
             course='python'
+            category = 'python'
           />
           <CourseBox
             img={"./images/courses/jango.png"}
@@ -80,6 +85,7 @@ export default function Courses() {
             number="231"
             price="180000"
             course='jango'
+            category = 'backend'
           />
         </div>
       </div>

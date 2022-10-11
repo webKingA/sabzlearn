@@ -58,7 +58,7 @@ export default function Navbar() {
                 صفحه اصلی
               </Link>
               <Link
-                to="/frontend"
+                to="/category-info/frontend"
                 className="link__front"
                 onClick={closeHandler}
               >
@@ -71,7 +71,7 @@ export default function Navbar() {
                 </ul>
               </Link>
               <Link
-                to="/security"
+                to="/category-info/security"
                 className="link__security"
                 onClick={closeHandler}
               >
@@ -84,7 +84,7 @@ export default function Navbar() {
                 </ul>
               </Link>
               <Link
-                to="/articles"
+                to="/category-info/articles"
                 className="link__articles"
                 onClick={closeHandler}
               >
@@ -97,7 +97,7 @@ export default function Navbar() {
                 </ul>
               </Link>
               <Link
-                to="/python"
+                to="/category-info/python"
                 className="link__python"
                 onClick={closeHandler}
               >
@@ -109,7 +109,7 @@ export default function Navbar() {
                   <Link to="/">ترفند های کاربردی پایتون</Link>
                 </ul>
               </Link>
-              <Link to="/soft-skills" onClick={closeHandler}>
+              <Link to="/category-info/soft-skills" onClick={closeHandler}>
                 مهارت های نرم
               </Link>
             </ul>
