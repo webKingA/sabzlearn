@@ -1,0 +1,12 @@
+.accordion {
+    font-family: k;
+    padding: 1rem;
+}
+
+.accordion:nth-child(1) {
+    margin-top: 1rem;
+}
+
+.accordion:last-child {
+    margin-bottom: 1rem;
+}

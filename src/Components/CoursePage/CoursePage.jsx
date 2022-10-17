@@ -184,7 +184,8 @@ export default function CoursePage() {
                 <button>دانلود همگانی پیوست ها</button>
               </div>
               <div className="otherinfo__wrapper__box__3__according">
-                {/* <According /> */}
+                <According title = 'معرفی دوره' h3 = 'معرفی دوره + چرا یادگیری جاوااسکریپت ضروری است' />
+                <According title = 'معرفی دوره' h3 = 'مقدمات جاوااسکریپت' />
               </div>
             </div>
             <div className="otherinfo__wrapper__box__4">
